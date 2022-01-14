@@ -10,6 +10,6 @@ export class Negociacao {
     }
 
     get data(): Date {
-        return new Date(this._data.getDate());
+        return new Date(this._data);
     }
 }
